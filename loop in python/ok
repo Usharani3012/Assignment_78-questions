@@ -1,0 +1,5 @@
+m=[2,8,'usha','sandhya']
+print(m)
+print(m[:2])
+print(m[-2])
+

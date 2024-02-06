@@ -1,0 +1,29 @@
+.head {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+.sline {
+    color: white;
+    text-align: center;
+
+}
+.shline {
+    color: white;
+    text-align: left;
+    font-size: large;
+    font-weight: bolg;
+}
+.lline {
+    color: white;
+    text-decoration-line: underline;
+    text-align: center;
+}
+.tline {
+    color: white;
+    text-align: left;
+}
+.button {
+    text-align: center;
+} 

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Layout.css">
+    <style>
+        body {
+            box-sizing: content-box;
+            font-size: 40px;
+            color: white;
+            background-color: rgb(70, 214, 70);
+        }
+        #header {
+            width: 100%;
+            padding: 2rem;
+            background: rgb(156, 65, 217);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .main {
+            display: flex;
+            justify-content: space-between;
+        }
+        #main-article {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        #aside {
+            background-color: rgb(181, 67, 162);
+            width: 26%;
+            height: 550px;
+        }
+        #main-article {
+            width: 71%;
+            height: 550px;
+            background:rgb(123, 123, 224);
+        }
+        #aside-div {
+            display: flex;
+            justify-content: center;
+            margin-top: 200px;
+        }
+        #article-div {
+            display: flex;
+            justify-content: center;
+            margin-top: 160px;
+            color:white;
+        }
+        .A{
+            height: 100px;
+            width: 100px;
+            background-color: crimson;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .content{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #footer {
+            width: 100%;
+            background: rgb(6, 107, 120);
+        }
+        #footer div {
+            padding: 2rem;
+            text-align: center;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div id="header-div">header</div>
+    </header>
+    <br>
+    <main class="main">
+        <div id="aside">
+            <div id="aside-div"> Aside</div>
+        </div>
+        <div id="main-article">
+            <div id="Article"> 
+               <div id="article-div">Article</div>
+            </div>
+            <div class="content">
+                <div class="A">1</div>
+                <div class="A">2</div>
+                <div class="A">3</div>
+            </div>
+        </div>
+    </main>
+    <br>
+    <footer id="footer">
+        <div>footer</div>
+
+    </footer>
+</body>
+</html>
