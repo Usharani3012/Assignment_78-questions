@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td{
+           
+            border: 3px solid black;
+            
+        }
+        .bg{
+            background-color: burlywood;
+        }
+        .border{
+            height: 80vh;
+            width: 100vw;
+            border: 6px solid black;
+        }
+        .cell{
+            border: 2px solid black;
+            height: 20px;
+            text-align: center;
+            margin: 20px;
+            padding: 10px;
+        }
+        aside {
+            border: 2px solid black;
+            width: 300px;
+            height: 500px;
+            margin: 20px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .rbox{
+            display: flex;
+        }
+        .nested-table{
+            border: 2px solid black;
+            width: 100%;
+            height: 500px;
+            margin: 20px;
+            padding: 10px;
+        }
+        .row{
+            height: 90%;
+            width: 95%;
+            margin: 20px;
+            padding: 10px;
+        }
+        .c2{
+            text-align: left;
+        }
+        .c8{
+            text-align: right;
+        }
+        .c5{
+            text-align: center; 
+        }
+        .r1{
+            height: 10px;
+        }
+        .l1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="l1">Horizontal and Vertical Alignment</h1>
+    <div class="border">
+        <h4 class="cell">Cell Alignment With CSS</h4>
+        <div class="rbox">
+            <aside>Examples</aside>
+                        <div class="nested-table">
+                            <table class="row">
+                                <tr>
+                                    <td class="r1">Row</td>
+                                    <td>Cell-1</td>
+                                    <td>Cell-2</td>
+                                    <td>Cell-3</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td class="c1">CSS</td>
+                                    <td class="c2">CSS</td>
+                                    <td>CSS</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>CSS</td>
+                                    <td class="c5">CSS</td>
+                                    <td>CSS</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td >CSS</td>
+                                    <td class="c8">CSS</td>
+                                    <td >CSS</td>
+                                </tr>
+                            
+
+                            </table>
+                            
+                            <h4 class="l1">Nested Table</h4>
+                        </div>
+        </div>
+    </div>
+   
+</body>
+</html>
